@@ -1,0 +1,45 @@
+{
+	"name": "project",
+	"tree": {
+		"$className": "DataModel",
+		"Workspace": {
+			"$className": "Workspace",
+			"$ignoreUnknownInstances": true
+		},
+		"Lighting": {
+			"$className": "Lighting",
+			"$ignoreUnknownInstances": true
+		},
+		"ReplicatedFirst": {
+			"$className": "ReplicatedFirst",
+			"$ignoreUnknownInstances": true
+		},
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"$ignoreUnknownInstances": true,
+			"$path": "src/ReplicatedStorage"
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"$ignoreUnknownInstances": true,
+			"$path": "src/ServerScriptService"
+		},
+		"ServerStorage": {
+			"$className": "ServerStorage",
+			"$ignoreUnknownInstances": true
+		},
+		"StarterGui": {
+			"$className": "StarterGui",
+			"$ignoreUnknownInstances": true
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"$ignoreUnknownInstances": true,
+				"$path": "src/StarterPlayer/StarterPlayerScripts"
+			},
+			"$ignoreUnknownInstances": true
+		}
+	}
+}
