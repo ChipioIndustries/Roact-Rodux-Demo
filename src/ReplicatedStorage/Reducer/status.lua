@@ -6,4 +6,4 @@ local status = Rodux.createReducer("",{
     end
 })
 
-return 
+return status
