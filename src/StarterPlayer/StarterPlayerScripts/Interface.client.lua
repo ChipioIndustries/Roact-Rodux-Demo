@@ -7,14 +7,14 @@ local Rodux = require(game.ReplicatedStorage.Rodux)
 
 local Interface = require(game.ReplicatedStorage.Components:WaitForChild("Interface"))
 
-local store = Rodux.Store.new(Rodux.createReducer(nil,{}),{})
+local ClientStore = require(game.ReplicatedStorage.ClientStore)
 
 Roact.setGlobalConfig({
 	elementTracing = true;
 })
 
 local interface = Roact.createElement(RoactRodux.StoreProvider,{
-	store = store; --TODO
+	store = ClientStore;
 },{
 	Interface = Roact.createElement(Interface);
 })

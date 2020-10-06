@@ -9,9 +9,7 @@ function MenuButton:render()
         Text = self.props.symbol;
         TextColor3 = Color3.new(1,1,1);
         TextScaled = true;
-        [Roact.Event.Activated] = function()
-            self.props.callback()
-        end
+        [Roact.Event.Activated] = self.props.callback;
     })
 end
 
